@@ -1,9 +1,14 @@
 
-_G.auto = true
+_G.money1 = true
 
 while true do
     wait(0.00000001)
-    if _G.auto == true then
-        local args = { [1] = 61093 } game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("vorlias_net@3.0.6"):WaitForChild("net"):WaitForChild("_NetManaged"):WaitForChild("WithdrawCollector"):FireServer(unpack(args))
+    if _G.money1 == true then
+local args = {
+    [1] = 14236
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("vorlias_net@3.0.6"):WaitForChild("net"):WaitForChild("_NetManaged"):WaitForChild("WithdrawCollector"):FireServer(unpack(args))
+
     end
 end
