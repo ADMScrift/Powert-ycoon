@@ -1,0 +1,5 @@
+local args = {
+    [1] = 61093
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("vorlias_net@3.0.6"):WaitForChild("net"):WaitForChild("_NetManaged"):WaitForChild("WithdrawCollector"):FireServer(unpack(args))
