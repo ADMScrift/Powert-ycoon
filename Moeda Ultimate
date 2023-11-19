@@ -1,0 +1,9 @@
+
+_G.auto = true
+
+while true do
+    wait(0.00000001)
+    if _G.auto == true then
+        local args = { [1] = 62098 } game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("vorlias_net@3.0.6"):WaitForChild("net"):WaitForChild("_NetManaged"):WaitForChild("WithdrawCollector"):FireServer(unpack(args))
+    end
+end
